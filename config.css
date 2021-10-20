@@ -4,9 +4,12 @@
 }
 
 #bodyhead {
-    font-size: xx-large;
-    background-color: black;
+    font-size: 50px;
+    background-color: #006669;
     color: white;
+    width: 1300px;
+    font-family: "Adobe Arabic";
+
 }
 
 .navbar-brand {
@@ -52,7 +55,7 @@ nav ul li a {
     padding: 15px;
     text-decoration: none;
     color: #aaa;
-    font-weight: 800;
+    font-weight: 500;
     text-transform: uppercase;
     margin: 0 10px;
 }
@@ -193,13 +196,15 @@ a {
 }
 
 .footer .footer-content .about h1 span {
-    color: #05f7ff;
+    color: #f5bcbc;
 }
 
 .footer .footer-content .about .contact span {
     display: block;
-    font-size: 1.1em;
-    margin-bottom: 8px;
+    font-size: 20px;
+    margin-bottom: 10px;
+    font-weight: bolder;
+    font-family: "Adobe Caslon Pro";
 }
 
 .footer .footer-content .about .socials a {
@@ -263,4 +268,24 @@ a {
     bottom: 0px;
     left: 0px;
     padding-top: 20px;
+}
+.navbar-brand{
+    font-family: "Apple Symbols";
+    font-weight: bolder;
+}
+#photo{
+    border-radius: 50%;
+    overflow: hidden;
+}
+.skills{
+    font-size: 60px;
+    font-family: "Adobe Myungjo Std";
+}
+.card-body1{
+    background-color:#006669 ;
+}
+.card-title1{
+    color: white;
+    font-family: "Adobe Arabic";
+    font-size: 50px;
 }
